@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/b_home"
+        android:icon="@mipmap/home_final"
+        android:title="Home" />
+    <item
+        android:id="@+id/b_lucky_draw"
+        android:icon="@mipmap/lucky_draw"
+        android:title="Lucky Draw" />
+    <item
+        android:id="@+id/b_about"
+        android:icon="@mipmap/about_us_dashbord"
+        android:title="About" />
+
+</menu>

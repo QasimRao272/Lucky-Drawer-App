@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/home_final"
+        android:title="Home" />
+    <item
+        android:id="@+id/lucky_drawut"
+        android:icon="@mipmap/lucky_draw"
+        android:title="Lucky Draw" />
+
+    <item
+        android:id="@+id/all_lucky_draw_item"
+        android:icon="@mipmap/lucky_draw"
+        android:title="All Lucky Draw Item" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@mipmap/about_us_dashbord"
+        android:title="About" />
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@mipmap/phone"
+        android:title="Contact" />
+
+</menu>

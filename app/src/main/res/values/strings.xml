@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lucky Drawer App</string>
+    <string name="Open_navigation_drawer">Open</string>
+    <string name="Close_navigation_drawer">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="realme_2020_realme_aiot_realme_hardware_software_2020_15_22">realme ဟာ 2020 ခုနှစ်အတွင်း နိုင်ငံတကာမိုဘိုင်းဈေးကွက်တွင် realme အနေဖြင့် ပိုမိုအရှိန်အဟုန်မြှင့်နေရာယူလာနိုင်ခဲ့ပြီး ဆန်းသစ်သည့် စမတ်ဖုန်းထုတ်ကုန်သစ်များနှင့် AIoT ထုတ်ကုန်များကို မိတ်ဆက်ပေးထားပြီ ဖြစ်သည်။ realme အနေဖြင့် လူငယ်၊ လူရွယ်များအတွက် စမတ်ကျသည့် အနာဂတ်ကို ပုံဖော်ဖန်တီးပေးနိုင်စေရန်အတွက် hardware, software ပိုင်းတို့နှင့်အတူ အဆင့်မြှင့်တင်ပေါင်းစပ်ထားသောဝန်းကျင်မျိုးကို အလေးထားလုပ်ဆောင်ပေးလျက်ရှိသည်။ 2020 ခုနှစ် ပထမနှစ်ဝက်အတွင်း သုံးစွဲသူပေါင်း နောက်ထပ် 15 သန်းကျော်အထိ တိုးပွားလာခဲ့ပြီး ဈေးကွက်သစ်ပေါင်း 22 ခုအထိ တိုးမြှင့်ချဲ့ထွင်ကာ ၎င်းတို့၏ ကြီးမားထိရောက်သော စွမ်းဆောင်မှုများနှင့် ခေတ်ဆန်သော ထုတ်ကုန်ဒီဇိုင်းများနှင့်အတူ ကမ္ဘာတစ်ဝန်းလုံးက သုံးစွဲသူများ၏ နှစ်သက်သဘောကျခြင်းကို ရယူထားနိုင်ပြီ ဖြစ်သည်။</string>
+    <string name="subscribe_to_win">Subscribe to Win</string>
+    <string name="subscriber_list">Subscriber List</string>
+    <string name="mpt_prepaid_top_up_card">MPT Prepaid Top Up Card</string>
+    <string name="winner">Winner</string>
+    <string name="lucky_draw_generator">Lucky Draw Generator</string>
+    <string name="lucky_draw_quality">Lucky Draw Quality</string>
+    <string name="please_insert_single_name_or_numbers">Please insert single name or numbers</string>
+</resources>
