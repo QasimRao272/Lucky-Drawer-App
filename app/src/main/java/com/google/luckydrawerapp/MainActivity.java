@@ -8,7 +8,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -24,11 +27,25 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
+    String MY_PREFS_NAME = "Lucky_Draw";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        String id = prefs.getString("id", "No name defined");
+        String name = prefs.getString("name", "No name defined");
+        String email = prefs.getString("email", "No name defined");
+        String token = prefs.getString("token", "No name defined");
+
+        Log.d("TAG", "onResponse: " + token);
+        Log.d("TAG", "onResponse: " + name);
+        Log.d("TAG", "onResponse: " + email);
+        Log.d("TAG", "onResponse: " + id);
+
+
 
         BottomNavigationView bottomNav = (BottomNavigationView) findViewById(R.id.b_nav);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
@@ -72,6 +89,12 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new FragmentContact();
                         Toast.makeText(MainActivity.this, "Contact", Toast.LENGTH_SHORT).show();
                         break;
+                    /*case R.id.logout:
+                        SharedPreferences preferences = getSharedPreferences(MY_PREFS_NAME, 0);
+                        preferences.edit().remove("done").commit();
+                        startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                        Toast.makeText(MainActivity.this, "Logout Successfully !", Toast.LENGTH_SHORT).show();
+                        break;*/
                     default:
                         return true;
                 }

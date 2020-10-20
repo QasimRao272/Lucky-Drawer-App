@@ -25,4 +25,9 @@
         android:icon="@mipmap/phone"
         android:title="Contact" />
 
+    <item
+        android:id="@+id/logout"
+        android:icon="@mipmap/phone"
+        android:title="Logout" />
+
 </menu>
