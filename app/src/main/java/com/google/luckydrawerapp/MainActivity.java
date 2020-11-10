@@ -23,6 +23,8 @@ import com.google.luckydrawerapp.Fragments.FragmentHome;
 import com.google.luckydrawerapp.Fragments.FragmentLuckyDraw;
 import com.google.luckydrawerapp.Fragments.FragmentLuckyDrawItem;
 
+import static android.content.Context.MODE_PRIVATE;
+
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
